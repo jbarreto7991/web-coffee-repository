@@ -35,7 +35,7 @@
 
 **6. Validación Coffee.php**
 
- -  - Validar la carga de la página Coffee.php desde una instancia ubicada dentro de la red 
+ - Validar la carga de la página Coffee.php desde una instancia ubicada dentro de la red 
  - curl http://PRIVATE_IP/Coffee.php
  - Esta página se visualizará cuando la integración entre EC2 y RDS esté realizado
 
