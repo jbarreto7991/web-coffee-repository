@@ -152,7 +152,7 @@
 
  - Query creación de tabla Athena
 
-REATE EXTERNAL TABLE IF NOT EXISTS vpcflowlog (
+ - CREATE EXTERNAL TABLE IF NOT EXISTS vpcflowlog (
 version string, 
 account_id string, 
 interface_id string, 
@@ -178,7 +178,7 @@ LOCATION 's3://{bucket_name}/AWSLogs/';
 
  - Query Select de tabla Athena
 
-select
+ - select
 interface_id,srcaddr,dstaddr,srcport,dstport,protocol,action,log_status
 from vpcflowlog 
 where version not in ('version') 
