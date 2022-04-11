@@ -115,3 +115,9 @@
  - Validar la carga de la página Coffee.php 
  - http://DNS_ALB/Coffee.php
  - Esta página se visualizará cuando la integración entre EC2 y RDS esté realizado
+
+
+## Load Testing EC2 - Validation EC2 AutoScaling Group
+
+ - apt-get install stress
+ - stress --cpu  8 --timeout 300
